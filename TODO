@@ -1,11 +1,11 @@
 SHORT-TERM GOALS:
-- Add a test suite
+(partially done) Add a test suite
 - Add info.json in
 - Add downloading entire users
-- Add arguments
+(partially done) Add arguments
 - Publish first release on GitHub
-- If possible, package into a neat executable.
+(done) If possible, package into a neat executable.
 LONG-TERM GOALS:
 - Bypass age verification (already possible with movies) (ng-dl did this with Selenium, but I will consider Selenium out-of-scope for this project.)
 - Bypass NG-Guard (if it is needed, currently doesn't activate with fetch. probably because that would break the site.)
-- Add support for all types of media NewGrounds supports
+- Add support for all types of media Newgrounds supports
