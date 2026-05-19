@@ -3,4 +3,4 @@ Downloader for Newgrounds
 
 
 # License
-MIT license.
+The Unlicense
