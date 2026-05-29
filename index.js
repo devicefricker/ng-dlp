@@ -84,7 +84,7 @@ async function main(url, args) {
               ig = new InfoGrabber($, false),
               info = await ig.get(),
               outputfolder = (values.path) ? values.path : "output",
-              root = isCompiled ? path.join(__dirname, '..') : process.cwd(),
+              root = isCompiled ? process.cwd() : path.join(__dirname, '..'),
               folder = path.join(root, outputfolder),
               finaloutputpath = path.join(folder, `${path.basename(links[0]).split("?")[0]}.json`)
         await fs.writeFile(finaloutputpath, JSON.stringify(info));

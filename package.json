@@ -1,6 +1,6 @@
 {
   "name": "ng-dlp",
-  "version": "v2026.5.29",
+  "version": "v2026.5.29.1",
   "bin": "index.js",
   "type": "module",
   "dependencies": {
