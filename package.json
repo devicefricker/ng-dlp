@@ -20,6 +20,6 @@
     "version": "mkdir tmp && node ./build/date.js > ./tmp/version && cp ./tmp/version ./data/ && rm -r ./tmp/",
     "updver": "node ./build/update_package_json.js"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "Unlicense",
   "author": "devicefricker"
 }
