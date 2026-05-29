@@ -1,15 +1,29 @@
-SHORT-TERM GOALS:
-(partially done) - Add a test suite
-- Add info.json in
+TO BE STARTED GOALS:
 - Add downloading entire users
-(partially done) - Add arguments
--- Add video quality options
--- Add review, description, score and genre extraction options (info.json)
+- Add downloading games
+- Add help (in the program itself)
+
+IN PROGRESS GOALS:
+(partially done) - Add a test suite
+        -- Add other tests
+
+(partially done) - Add video quality options
+
+(partially done) - Add metadata extraction 
+        (done) -- Basic views, favorites, votes, scores, upload dates, and genre extraction
+        (partially done) -- Add metadata extraction options
+	-- Review extraction
+        -- Advanced favorites extraction (getting the list of users who favorited the submission)
+
+FINISHED GOALS:
 (done) - Publish first release on GitHub
 (done) - If possible, package into a neat executable.
-- Add downloading games
+- Add metadata extraction
+        (done) -- Basic views, favorites, votes, scores, upload dates, and genre extraction
+- Add a test suite
+	(done) -- Add art tests
 
 LONG-TERM GOALS:
 - Bypass age verification (already possible with movies) (ng-dl did this with Selenium, but I will consider Selenium out-of-scope for this project.)
-- Bypass NG-Guard (if it is needed, currently doesn't activate with fetch. probably because that would break the site.)
+- Bypass NG-Guard (can only be bypassed by manually going to Newgrounds in your browser)
 - Add support for all types of media Newgrounds supports

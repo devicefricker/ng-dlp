@@ -10,7 +10,12 @@ class Heuristics {
                 artTest = skin.find('.art-images'),
                 genreTest = skin.find('[id^="genre-view"]'),
                 isArt = (artTest.length > 0) ? true : false,
-                hasGenre = (genreTest.length > 0) ? true : false;
+                hasGenre = (genreTest.length > 0) ? true : false,
+                profileTest = (new URL(this.url).hostname.split(".")[0] != "www") ? true : false;
+            if(profileTest) {
+                console.log(`[heuristics]: Detected profile link`);
+                resolve("profile");
+            } 
             if(isArt) {
                 console.log(`[heuristics]: Detected art link`);
                 resolve("art");

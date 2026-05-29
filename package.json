@@ -1,21 +1,25 @@
 {
-    "name": "ng-dlp",
-    "version": "v2026.5.19",
-    "bin": "index.js",
-    "type": "module",
-    "dependencies": {
-        "cheerio": "^1.2.0"
-    },
-    "pkg": {
-        "targets": ["node22-linux-x64", "node22-win-x64"],
-        "outputPath": "dist",
-        "public": true
-    },
-    "scripts": {
-        "build": "mkdir tmp && node ./build/date.js > ./tmp/version && pkg . && cp -R data dist && cp ./tmp/version ./dist/data && rm -r ./tmp/",
-        "clean": "rm -r dist",
-        "version": "mkdir tmp && node ./build/date.js > ./tmp/version && cp ./tmp/version ./data/ && rm -r ./tmp/"
-    },
-    "license": "MIT",
-    "author": "devicefricker"
+  "name": "ng-dlp",
+  "version": "v2026.5.29",
+  "bin": "index.js",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "pkg": {
+    "targets": [
+      "node22-linux-x64",
+      "node22-win-x64"
+    ],
+    "outputPath": "dist",
+    "public": true
+  },
+  "scripts": {
+    "build": "mkdir tmp && node ./build/date.js > ./tmp/version && pkg . && cp -R data dist && cp ./tmp/version ./dist/data && rm -r ./tmp/",
+    "clean": "rm -r dist",
+    "version": "mkdir tmp && node ./build/date.js > ./tmp/version && cp ./tmp/version ./data/ && rm -r ./tmp/",
+    "updver": "node ./build/update_package_json.js"
+  },
+  "license": "MIT",
+  "author": "devicefricker"
 }
