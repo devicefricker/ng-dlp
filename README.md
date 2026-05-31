@@ -21,9 +21,9 @@ Downloader for Newgrounds (This time it **will** happen)
 ```  
   --writeinfojson	Write JSON containing metadata about submission
 ```
-
+# To-do
+Check the [TODO](https://github.com/devicefricker/ng-dlp/blob/main/TODO) file.
 
 # License
 ng-dlp is public domain software. It is licensed under The Unlicense.
-Consider as good as yours, put in your commerical program, charge 5,000$, I couldn't really give a shit, but
-If you can, please give attribution. You are not REQUIRED to, but it would make me happy :)
+Consider it as good as yours, put it in your commercial program, charge 5000$, I couldn't really give a shit, but if you can, please give attribution. You are not REQUIRED to, but it would make me happy :)
