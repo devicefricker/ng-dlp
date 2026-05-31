@@ -1,5 +1,5 @@
 # ng-dlp
-Downloader for Newgrounds (This time it will happen)
+Downloader for Newgrounds (This time it **will** happen)
 
 # Usage
 ### General usage
