@@ -12,7 +12,7 @@ IN PROGRESS GOALS:
 (partially done) - Add metadata extraction 
         (done) -- Basic views, favorites, votes, scores, upload dates, and genre extraction
         (partially done) -- Add metadata extraction options
-	-- Review extraction
+		-- Review extraction
         -- Advanced favorites extraction (getting the list of users who favorited the submission)
 
 FINISHED GOALS:
@@ -21,9 +21,9 @@ FINISHED GOALS:
 - Add metadata extraction
         (done) -- Basic views, favorites, votes, scores, upload dates, and genre extraction
 - Add a test suite
-	(done) -- Add art tests
+	    (done) -- Add art tests
 
 LONG-TERM GOALS:
-- Bypass age verification (already possible with movies) (ng-dl did this with Selenium, but I will consider Selenium out-of-scope for this project.)
+- Bypass age verification (already possible with movies) (ng-dl did this with Selenium, but I will consider Selenium out of scope for this project.)
 - Bypass NG-Guard (can only be bypassed by manually going to Newgrounds in your browser)
 - Add support for all types of media Newgrounds supports
